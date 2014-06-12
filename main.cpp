@@ -203,7 +203,7 @@ int main()
     s[4].setString("2 h");
     s[5].setString("4 h");
     s[6].setString("5 h");
-    s[7].setString(L"Wyłącz");
+    s[7].setString(L"Anuluj");
     s[8].setString("10 h");
     q.setString(L"Wyjdź");
     unit_text[0].setString("S");
