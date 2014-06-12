@@ -9,10 +9,11 @@
 			<Target title="Debug">
 				<Option output="bin/Debug/ShutdownT" prefix_auto="1" extension_auto="1" />
 				<Option object_output="obj/Debug/" />
-				<Option type="1" />
+				<Option type="0" />
 				<Option compiler="gcc" />
 				<Compiler>
 					<Add option="-g" />
+					<Add option="-mwindows" />
 					<Add option="-DSFML_STATIC" />
 					<Add directory="../../MinGW/include" />
 				</Compiler>
@@ -30,6 +31,7 @@
 				<Option compiler="gcc" />
 				<Compiler>
 					<Add option="-O2" />
+					<Add option="-mwindows" />
 				</Compiler>
 				<Linker>
 					<Add option="-s" />

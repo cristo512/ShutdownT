@@ -1,10 +1,13 @@
 # depslib dependency file v1.0
-1402602511 source:d:\else\cpp\shutdownt\main.cpp
+1402608826 source:d:\else\cpp\shutdownt\main.cpp
 	<SFML/Graphics.hpp>
 	<SFML/Window.hpp>
 	<windows.h>
 	<conio.h>
 	<sstream>
+	<string>
+	<cmath>
+	<cstdlib>
 
 1365237034 d:\else\mingw\include\sfml\graphics.hpp
 	<SFML/Window.hpp>
